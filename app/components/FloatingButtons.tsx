@@ -13,10 +13,10 @@ export default function FloatingButtons() {
 
       {/* Facebook */}
       <a
-        href="https://facebook.com/fotomomenty"
+        href="https://www.facebook.com/profile.php?id=61577068720195&locale=pl_PL"
         target="_blank"
         rel="noopener noreferrer"
-        className="flex h-14 w-14 items-center justify-center rounded-full bg-blue-600 text-2xl shadow-xl transition hover:scale-110"
+        className="flex h-14 w-14 items-center justify-center rounded-full bg-blue-600 text-2xl font-bold shadow-xl transition hover:scale-110"
         title="Facebook"
       >
         f
