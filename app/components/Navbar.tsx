@@ -60,7 +60,7 @@ export default function Navbar() {
           className="lg:hidden text-white text-4xl"
           aria-label="Menu"
         >
-          {open ? "✕" : "MENU"}
+          {open ? "✕" : "☰"}
         </button>
       </div>
 
