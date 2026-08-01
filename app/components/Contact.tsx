@@ -64,10 +64,7 @@ export default function Contact() {
 
   return (
     <FadeIn>
-      <section
-        id="kontakt"
-        className="bg-black text-white py-24 px-6"
-      >
+      <section id="kontakt" className="bg-black text-white py-24 px-6">
         <div className="max-w-7xl mx-auto">
 
           <p className="text-center uppercase tracking-[6px] text-yellow-400">
@@ -83,7 +80,6 @@ export default function Contact() {
             <div className="space-y-8">
 
               <div>
-
                 <h3 className="text-3xl mb-4">
                   FotoMomenty
                 </h3>
@@ -93,7 +89,6 @@ export default function Contact() {
                   roczki, sesje rodzinne,
                   ciążowe i narzeczeńskie.
                 </p>
-
               </div>
 
               <div className="space-y-4">
@@ -122,8 +117,15 @@ export default function Contact() {
                   </a>
                 </p>
 
-                <p>📧 piotrekn2110@wp.pl</p>
-                <p>📧 nataliabrzez@o2.pl</p>
+                <p>
+                  📧{" "}
+                  <a
+                    href="mailto:fotomomentykontakt@gmail.com"
+                    className="text-yellow-400 hover:text-yellow-300 transition"
+                  >
+                    fotomomentykontakt@gmail.com
+                  </a>
+                </p>
 
               </div>
 
@@ -132,7 +134,8 @@ export default function Contact() {
             <form
               onSubmit={sendEmail}
               className="space-y-5"
-            >              <input
+            >
+              <input
                 type="text"
                 name="name"
                 placeholder="Imię i nazwisko"
@@ -194,7 +197,8 @@ export default function Contact() {
                 className="w-full rounded-xl bg-yellow-500 py-4 text-black font-semibold hover:bg-yellow-400 transition disabled:opacity-50"
               >
                 {sending ? "Wysyłanie..." : "Wyślij zapytanie"}
-              </button>            </form>
+              </button>
+            </form>
 
           </div>
 
