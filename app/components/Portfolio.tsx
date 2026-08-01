@@ -6,7 +6,7 @@ import FadeIn from "./FadeIn";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 
-const IMAGE_COUNT = 30;
+const IMAGE_COUNT = 34;
 
 const images = Array.from(
   { length: IMAGE_COUNT },
