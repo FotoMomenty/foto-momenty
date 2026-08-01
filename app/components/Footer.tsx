@@ -9,7 +9,6 @@ export default function Footer() {
         <div className="grid md:grid-cols-3 gap-12">
 
           {/* Logo */}
-
           <div>
 
             <h2 className="text-3xl text-white font-light">
@@ -25,7 +24,6 @@ export default function Footer() {
           </div>
 
           {/* Menu */}
-
           <div>
 
             <h3 className="text-white text-xl mb-6">
@@ -33,19 +31,16 @@ export default function Footer() {
             </h3>
 
             <ul className="space-y-3">
-
               <li><a href="#hero" className="hover:text-yellow-400">Start</a></li>
               <li><a href="#onas" className="hover:text-yellow-400">O nas</a></li>
               <li><a href="#oferta" className="hover:text-yellow-400">Oferta</a></li>
               <li><a href="#portfolio" className="hover:text-yellow-400">Portfolio</a></li>
               <li><a href="#kontakt" className="hover:text-yellow-400">Kontakt</a></li>
-
             </ul>
 
           </div>
 
           {/* Kontakt */}
-
           <div>
 
             <h3 className="text-white text-xl mb-6">
@@ -58,15 +53,21 @@ export default function Footer() {
 
               <p>
                 📞
-                <a href="tel:+48511337594" className="hover:text-yellow-400 ml-2">
+                <a
+                  href="tel:+48511337594"
+                  className="hover:text-yellow-400 ml-2"
+                >
                   511 337 594
                 </a>
               </p>
 
               <p>
                 📧
-                <a href="mailto:piotrekn2110@wp.pl" className="hover:text-yellow-400 ml-2">
-                  piotrekn2110@wp.pl
+                <a
+                  href="mailto:fotomomentykontakt@gmail.com"
+                  className="hover:text-yellow-400 ml-2"
+                >
+                  fotomomentykontakt@gmail.com
                 </a>
               </p>
 
@@ -79,9 +80,7 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-zinc-800 py-6 text-center text-sm">
-
         © {year} FotoMomenty • Wszelkie prawa zastrzeżone.
-
       </div>
 
     </footer>
